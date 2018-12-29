@@ -1,1 +1,1 @@
-# .emacs.d
+# 01X Emacs  config
