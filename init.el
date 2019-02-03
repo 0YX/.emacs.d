@@ -20,3 +20,4 @@
 (require 'init-keybindings)
 (require 'init-better-defaults)
 (require 'custom)
+(require 'lsp-mode)
