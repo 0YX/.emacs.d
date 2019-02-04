@@ -17,6 +17,7 @@
 			   company-anaconda
 			   flycheck-pyflakes
 			   lsp-python
+			   ivy
                           )  "Default packages")
 
 (defun Mojospy/packages-installed-p ()
