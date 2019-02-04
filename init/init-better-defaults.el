@@ -11,7 +11,7 @@
 (delete-selection-mode t)
 (global-company-mode t)
 (smartparens-global-mode t)
-
+(ivy-mode 1)
 
 
 
