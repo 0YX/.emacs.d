@@ -155,6 +155,14 @@
 
 
 
+(require 'dashboard)
+(dashboard-setup-startup-hook)
+;; Or if you use use-package
+(use-package dashboard
+  :ensure t
+  :config
+  (dashboard-setup-startup-hook))
+
 
 
 (provide 'init-better-defaults)
