@@ -10,14 +10,9 @@
 			   company
 			   doom-themes
                            smartparens
-                           cmake-ide
-			   jedi
-			   elpy
-			   anaconda-mode
-			   company-anaconda
+      			   elpy
 			   flycheck-pyflakes
-			   lsp-python
-			   ivy
+		           ivy
                           )  "Default packages")
 
 (defun Mojospy/packages-installed-p ()
@@ -33,10 +28,4 @@
       (package-install pkg))))
 
 
-
-
-
-
-
 (provide 'init-packages)
-
