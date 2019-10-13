@@ -14,7 +14,8 @@
 (delete-selection-mode t)
 (beacon-mode 1)
 (highlight-indentation-mode t)
-
+;; Emacs 26 new character
+(global-display-line-numbers-mode 1)
 
 
 ;;add group
