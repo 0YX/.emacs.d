@@ -18,6 +18,28 @@
 (global-display-line-numbers-mode 1)
 
 
+
+(setq-default
+ initial-scratch-message     (concat ";; Happy hacking, " user-login-name " - Emacs ♥ you!\n\n")
+ dashboard-banner-logo-title (concat ";; Happy hacking, " user-login-name " - Emacs ♥ you!\n\n")
+ ;; initial-buffer-choice       #'(lambda () (get-buffer "*dashboard*"))  ;; It will cause error if you start emacs from Command line with file name
+                                                                          ;; https://github.com/rakanalh/emacs-dashboard/issues/69
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ;;add group
 (add-hook 'c-mode-hook #'rainbow-delimiters-mode)
 (add-hook 'python-mode-hook #'rainbow-delimiters-mode)
